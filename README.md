@@ -41,22 +41,4 @@ This is a simple binance trader that uses the REST api and sockets to allow auto
 - MAX_CANDLES - Max candles the trader will use (if left brank default is 500)
 - MAX_DEPTH - Max market depth the trader will use (if left brank default is 50)
 
-## Usage
-I recommend setting this all up within a virtual python enviornment:
-First get the base modules:
- - To quickly install all the required modules use 'pip3 install -r requirements'.
 
-Secondly get the required techinal indicators module adn binance api.
- - https://github.com/EasyAI/binance_api, This is the binance API that the trader uses.
- - https://github.com/EasyAI/Python-Charting-Indicators, This contains the logic to calculate technical indicators. (only the file technical_indicators.py is needed)
-
-Move them into the site-packages folder. NOTE: If you get an error saying that either the technical_indicators or binance_api is not found you can move them in to the same directory as the run.py file for the trader.
-
-Finally navigate to the trader directory.
-
-To set up the bot and for any further detail please refer to the google doc link below:
-https://docs.google.com/document/d/1VUx_1O5kQQxk0HfqqA8WyQpk6EbbnXcezAdqXkOMklo/edit?usp=sharing
-
-### Contact
-Please if you find any bugs or issues contact me so I can improve.
-EMAIL: jlennie1996@gmail.com
